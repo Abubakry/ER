@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CashPaymentActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="150dp"
+        android:layout_marginLeft="5dp"
+        android:text=".زبائننا الكرام يعتبر هذا الحجز موقتا ولديك 3 ساعات فقط، ويجب خلالها الوصول للمستشفى ومقابلة الشؤون المالية وتوكيد الحجز "
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/cash"
+        android:layout_centerHorizontal="true"
+
+    />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+
+        android:text="موافـــق" />
+
+</RelativeLayout>

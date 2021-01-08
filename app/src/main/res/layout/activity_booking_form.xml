@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingFormActivity">
+
+
+
+
+
+    <TextView
+        android:id="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginRight="8dp"
+        android:paddingRight="10dp"
+        android:text="إسم المريض"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt01"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="3dp"
+
+        android:ems="10"
+        android:hint="إسم المريض"
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="-2dp"
+        android:paddingRight="10dp"
+        android:text="عمر المريض"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt02"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:hint="عمر المريض"
+
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/txt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="12dp"
+        android:paddingRight="10dp"
+        android:text="إسم حاجز غرقة الطواري"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt03"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:hint="إسم حاجز غرف الطواري"
+
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/txt04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="390dp"
+        android:paddingRight="10dp"
+        android:text="رقم هاتف حاجز غرقة الطواري"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt04"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:hint="رقم هاتف حاجز غرف الطواري"
+
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textSize="20dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/txt05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="490dp"
+        android:paddingRight="10dp"
+        android:text="صلة القرابة بالمريض"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/editText05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt05"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:hint="صلة القرابة بالمريض"
+
+        android:inputType="textPersonName"
+        android:paddingRight="10dp"
+        android:textSize="20dp" />
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:text="طلب حجز غرفة طواري "
+        android:textSize="30sp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:text="حجز غرفة"
+        android:layout_centerHorizontal="true"
+
+
+        />
+
+
+</RelativeLayout>
