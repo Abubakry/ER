@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ER01</string>
+    <string name="reverse_room">حجز غرفة</string>
+    <string name="pation_info">معلومات المريض</string>
+    <string name="patient_assistant">معلومات المرافق</string>
+    <string name="loading">رجاء الانتظار</string>
+    <string name="ok">مواقق</string>
+    <string name="failed">فشل العملية</string>
+    <string name="sorry">عفوا!</string>
+    <string name="no_empty_rooms">لا يوجد غرف متاحة حاليا في هذا المستشفي</string>
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ER01</string>
+    <string name="reverse_room">Reserve a Room</string>
+    <string name="pation_info">Patient Info</string>
+    <string name="patient_assistant">Patient Assistant Info</string>
+    <string name="loading">Loading</string>
+    <string name="ok">OK</string>
+    <string name="failed">Failed</string>
+    <string name="sorry">Sorry!</string>
+    <string name="no_empty_rooms">There is no currently empty room in this hospital</string>
+</resources>
