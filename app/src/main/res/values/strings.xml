@@ -7,5 +7,19 @@
     <string name="ok">OK</string>
     <string name="failed">Failed</string>
     <string name="sorry">Sorry!</string>
+
+
+
+    <string-array name="spinerText" >
+
+        <item>  أخصائي عيون</item>
+        <item> أخصائي عضام </item>
+        <item> أخصاائي قلب  </item>
+        <item> أخصائي باطنية </item>
+
+
+    </string-array>
+
+
     <string name="no_empty_rooms">There is no currently empty room in this hospital</string>
 </resources>

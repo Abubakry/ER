@@ -9,6 +9,8 @@ import android.widget.ImageView;
 
 public class PaymentOptionsActivity extends AppCompatActivity {
 
+    ImageView  img2, img;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +25,22 @@ public class PaymentOptionsActivity extends AppCompatActivity {
                 startActivity(in);
             }
         });
+
+
+    ImageView img2 =(ImageView)findViewById(R.id.imageView7);
+
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in22 = new Intent(PaymentOptionsActivity.this,Bankak.class);
+                startActivity(in22);
+            }
+        });
+
+
+
+
+
 
 
     }

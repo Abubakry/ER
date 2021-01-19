@@ -91,6 +91,23 @@
                     android:hint="صلة القرابة بالمريض"
                     android:inputType="textPersonName"
                     android:textSize="20sp" />
+
+
+                <Spinner
+                    android:id="@+id/Spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="الأخصائي"
+                    android:inputType="textPersonName"
+                    android:textSize="20sp"
+                    android:entries="@array/spinerText"
+
+
+                    />
+
+
+
+
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
